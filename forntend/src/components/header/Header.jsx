@@ -1,15 +1,15 @@
 import Navbar from "./Navbar";
-import Logo from "./Logo"
-import MainTitle from "./MainTitel"
+import Logo from "./Logo";
+import MainTitle from "./MainTitel";
 
 function Header() {
   return (
     <header>
-      <Logo/>
-      <MainTitle/>
+      <MainTitle />
+      <Logo />
       <Navbar />
     </header>
   );
 }
 
-export default Header; 
+export default Header;
