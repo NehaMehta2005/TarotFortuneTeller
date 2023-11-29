@@ -5,8 +5,8 @@ import MainTitle from "./MainTitel";
 function Header() {
   return (
     <header>
-      <MainTitle />
       <Logo />
+      <MainTitle />
       <Navbar />
     </header>
   );
