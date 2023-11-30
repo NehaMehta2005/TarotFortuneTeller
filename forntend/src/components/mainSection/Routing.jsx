@@ -1,18 +1,15 @@
 import { Routes, Route } from "react-router-dom";
- 
+import Home from "./home/Home";
 import AboutTarot from "../header/AboutTarot";
 import Terms from "../footer/Terms";
 import Privacy from "../footer/Privacy";
-import NotFound from "../notfoundPage/notfound"
-
+import NotFound from "../notfoundPage/notfound";
 
 function Routing() {
-    
-
   return (
     <>
       <Routes>
-        <Route path="/" /> 
+        <Route path="/" element={<Home />} />
         <Route path="/aboutTarot" element={<AboutTarot />} />
         <Route path="/yourFortuneTeller" />
         <Route path="/buyCards" />
