@@ -6,6 +6,7 @@ import dotenv from "dotenv";
 dotenv.config();
 import morgan from "morgan";
 import usersRouter from "./routers/usersRouter.js";
+import contactUsRouter from "./routers/contactUsRoutes.js"
 // creating express server
 const app = express();
 
@@ -31,6 +32,7 @@ app.use("/users", usersRouter);
 //app.use("/terms", footerRouter);
 //create more routes as required
 
+app.use("/submitContactForm", contactUsRouter);
 
 // middleware to handle errors
 app.use((error, req, res, next) => {
