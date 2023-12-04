@@ -1,0 +1,16 @@
+import contactUsSchema from "../models/contactUsSchema.js";
+
+export const contactUs = async (req, res, next) => { 
+    try {
+
+       const newContactdata=  req.body; 
+
+       console.log(newContactdata);
+       
+
+         res.status(200).send(newContactdata)
+    }
+     catch(err){
+        next(err)
+     }
+}
