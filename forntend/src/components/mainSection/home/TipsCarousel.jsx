@@ -2,10 +2,12 @@ import React, { useContext,useState } from "react";
 import TipsItem from "./TipsItem";
 import TipsIndicators from "./TipsIndicators";
 import tipsData from "../../jsonData/tipsData";
-import { MyContext } from "../../../context/context";
+import { MyContext } from "../../../context/Context";
 
 const TipsCarousel = () => {
   // const [activeTip, setActiveTip] = useState(0);
+
+  
   const { state, dispatch } = useContext(MyContext);
   const { activeTip } = state;
 

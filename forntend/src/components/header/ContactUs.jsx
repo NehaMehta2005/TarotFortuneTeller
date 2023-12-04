@@ -1,11 +1,16 @@
 
-import React, { useState } from "react";
+import React, {useContext} from "react";
 import toast,{ Toaster } from 'react-hot-toast'
+import { MyContext } from "../../context/Context";
 
 const FORM_ENDPOINT = "http://localhost:5500/submitContactForm/contactUs";
 
 function ContactUs() {
-  const [submitted, setSubmitted] = useState(false);
+  // const [submitted, setSubmitted] = useState(false);
+
+  const { state, dispatch } = useContext(MyContext);
+  const { submitted } = state;
+
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -40,9 +45,9 @@ function ContactUs() {
         
         } 
         toast.success("you successfully sent the message")
-        setSubmitted(true);
+        // setSubmitted(true);
       
-        
+        dispatch({ type: "setSubmitted", payload: true });
 
       })
       .catch((err) => {

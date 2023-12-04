@@ -1,6 +1,6 @@
 import React, {useReducer, useState}from 'react'
-import { MyContext } from './context'
-import {initialState, reducer} from "./reducer"
+import { MyContext } from './Context'
+import {initialState, reducer} from "./Reducer"
 
 
 export default function Container({children}) {
