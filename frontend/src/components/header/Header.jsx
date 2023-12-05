@@ -1,12 +1,14 @@
 import Navbar from "./Navbar";
-import Logo from "./Logo";
-import MainTitle from "./MainTitel";
+/* import Logo from "./Logo";
+import MainTitle from "./MainTitel"; */
+import "./Nav-bar.css"
+import "./Header.css"
 
 function Header() {
   return (
-    <header>
-      <Logo />
-      <MainTitle />
+    <header className="header">
+    {/*   <Logo />
+      <MainTitle /> */}
       <Navbar />
     </header>
   );

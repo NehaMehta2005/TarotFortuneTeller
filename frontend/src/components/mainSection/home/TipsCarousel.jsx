@@ -3,6 +3,7 @@ import TipsItem from "./TipsItem";
 import TipsIndicators from "./TipsIndicators";
 import tipsData from "../../jsonData/tipsData";
 import { MyContext } from "../../../context/Context";
+import "./TipsCarousel.css"
 
 const TipsCarousel = () => {
   // const [activeTip, setActiveTip] = useState(0);
@@ -38,7 +39,7 @@ const TipsCarousel = () => {
   };
 
   return (
-    <div>
+    <div className="tips-container">
       <div className="tips">
         <div className="carousel slide">
           <div className="carousel-inner">
