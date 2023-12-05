@@ -9,6 +9,7 @@ function Navbar() {
         <li><Link to="/aboutTarot">Everything about Tarot</Link></li>
         <li><Link to="/yourFortuneTeller">Your Tarot fortune teller</Link></li>
         <li><Link to="/buyCards">Buy the Tarot cards</Link></li>
+        <li><Link to="/OurTeam">Our Team</Link></li>
         <li><Link to="/contactUs">Contact us</Link></li>
       </ul>
     </div>
