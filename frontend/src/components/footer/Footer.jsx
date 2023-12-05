@@ -1,5 +1,6 @@
 import React from "react";
 import { Link, useNavigate } from "react-router-dom";
+import "./Footer.css"
 
 const Footer = () => {
   const teamMembers = ["Neha Mehta", "Masouma Rasouli", "Alejandro Lima Lugo"];
