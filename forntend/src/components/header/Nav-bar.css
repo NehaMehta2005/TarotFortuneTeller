@@ -1,0 +1,37 @@
+.nav-bar {
+    background-color: rgba(85, 82, 82, 0.637);
+    padding: 10px;
+    margin: 0;
+    border: 0px rgba(0, 0, 0, 0);
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    list-style-type: none;
+    
+}
+
+.nav-bar ul {
+    display: flex;
+    width: 100vw;
+}
+
+.nav-bar li {
+
+    gap: 2rem;
+    width: 100vw;
+    justify-content: space-around;
+    list-style-type: none;
+    
+}
+
+.nav-bar li a {
+    color: rgba(255, 255, 255, 0.644);
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+    
+}
+
+.nav-bar li a:hover {
+    color: #343636;
+}

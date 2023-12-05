@@ -1,0 +1,24 @@
+.tips-container {
+    height: 95vh;
+    background-image: url("../../../images/background-witch.png");
+    /* background-position: bottom; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: aliceblue;
+
+
+}
+
+.carousel {
+    position: absolute;
+    bottom: 8rem;
+    left:3rem;
+
+
+}
+
+.carousel-inner {
+    background-color: rgba(255, 228, 196, 0);
+    
+
+}
