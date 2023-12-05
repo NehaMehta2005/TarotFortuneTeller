@@ -1,20 +1,25 @@
-import React, { useState, useEffect } from "react";
+import React, { useContext, useState, useEffect } from "react";
 import axios from 'axios';
-
+import { MyContext } from "../../context/Context";
 import { Link } from "react-router-dom";
 import "./OurTeam.css";
 
 export default function OurTeams() {
-  const [members, setMembers] = useState([]);
-
+  //const [members, setMembers] = useState([]);
+  const { state, dispatch } = useContext(MyContext);
+  const {members} = state;
   useEffect(() => {
     // Fetch member data from your backend API
     async function fetchMembers() {
       try {
         const response = await axios.get("http://localhost:5500/member");
 
+        dispatch({ type: 'setMembers', payload: response.data });
+        
+        /* const response = await axios.get("http://localhost:5500/member");
+
         setMembers(response.data);  
-        console.log(response.data)
+        console.log(response.data) */
       } catch (error) {
         console.error("Error fetching member data:", error);
       }
