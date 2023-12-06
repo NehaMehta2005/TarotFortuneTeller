@@ -8,6 +8,7 @@ import morgan from "morgan";
 import usersRouter from "./routers/usersRouter.js";
 import memberRouter from "./routers/memberRoutes.js";
 import contactUsRouter from "./routers/contactUsRoutes.js"
+import BuyCardsRouter from "./routers/BuyCardsRoutes.js";
 
 // creating express server
 const app = express();
@@ -36,6 +37,7 @@ app.use("/users", usersRouter);
 
 app.use("/submitContactForm", contactUsRouter);
 app.use("/member", memberRouter);
+app.use("/buyCards", BuyCardsRouter)
 
 // middleware to handle errors
 app.use((error, req, res, next) => {
