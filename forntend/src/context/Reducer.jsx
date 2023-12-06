@@ -6,6 +6,10 @@ export const reducer = (state, action) => {
       case "setSubmitted":
       return { ...state, submitted : action.payload };
 
+      // case "setQuantity": 
+      // return {...state , quantity : action.payload};
+
+  
     default:
       return state;
   }
@@ -14,4 +18,5 @@ export const reducer = (state, action) => {
 export const initialState = {
   activeTip: 0,
   submitted: false,
+  // quantity:1
 };
