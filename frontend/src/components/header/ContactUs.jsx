@@ -94,6 +94,7 @@ function ContactUs() {
       </form>
     </div>
     </div>
+    </div>
   );
 }
 
