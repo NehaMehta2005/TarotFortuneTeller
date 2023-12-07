@@ -1,0 +1,61 @@
+.buy-body {
+    
+    background-image: url("../../images/neptuneboy666_blue_marble_and_wood_magic_tarot_planets_texture__a6707555-4fee-4580-8773-7ae99994e85f.png");
+    background-size: 50%;
+    color: #030303;
+    width: 100%;
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.buy-background {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(54, 152, 201, 0.961);
+    border-radius: 4px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 70px;
+    padding-top: 20px;
+    margin-bottom: 70px;
+    padding-bottom: 20px;
+}
+
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: rgba(215, 214, 214, 0.806);
+    color: #030303;
+    cursor: pointer;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+button:hover {
+    background-color: #fff;
+    color: #030303;
+}
+
+.container {
+    margin-bottom: 20px;
+}
+
+.product-image {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}

@@ -72,7 +72,11 @@ import React, { useState } from 'react';
 
 
     return (
-      <div >
+
+
+      <div className="buy-body">
+      <div className="buy-background">
+     
         <form onSubmit={handleBuyClick}>
           <div>
             <h2>Divine Celestial Tarot</h2>
@@ -104,7 +108,7 @@ import React, { useState } from 'react';
          <Toaster position="top-center"/>
          
     
-
+         </div>
       </div>
     );
   }
