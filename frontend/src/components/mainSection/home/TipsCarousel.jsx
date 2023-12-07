@@ -1,6 +1,6 @@
-import React, { useContext,useState } from "react";
+import React, { useContext } from "react";
 import TipsItem from "./TipsItem";
-import TipsIndicators from "./TipsIndicators";
+
 import tipsData from "../../jsonData/tipsData";
 import { MyContext } from "../../../context/Context";
 import "./TipsCarousel.css"
@@ -51,7 +51,7 @@ const TipsCarousel = () => {
               </span>
 
               {/* Tip circles */}
-              <div className="tip-circles">
+              
                 {tipsData.map((tip, index) => (
                   <span
                     key={index}
@@ -61,7 +61,7 @@ const TipsCarousel = () => {
                     {activeTip === index ? "●" : "○"}
                   </span>
                 ))}
-              </div>
+            
 
               {/* Tips controls */}
               <span className="tip-control next" onClick={goToNextTip}>
@@ -73,7 +73,7 @@ const TipsCarousel = () => {
             <h2> Tips to improve your readings</h2>
             <TipsItem tip={tipsData[activeTip]} />
           </div>
-          <TipsIndicators />
+          
         </div>
       </div>
     </div>
