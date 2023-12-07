@@ -1,0 +1,61 @@
+.contactbackground2 {
+    background-image: url("../../images/neptuneboy666_blue_marble_and_wood_magic_tarot_planets_texture__9045cb1a-1a72-450e-a632-800027748317.png");
+    /* background-position: center;
+    background-attachment: fixed; */
+    background-size: 50%;
+    color: #030303;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.containerinfo {
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(54, 152, 201, 0.4);
+    border-radius: 4px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 70px;
+    padding-top: 20px;
+    margin-bottom: 70px;
+    padding-bottom: 20px;
+}
+
+h1,
+h3,
+h4 {
+    color: rgba(0, 0, 0, 0.806);
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+h4 {
+    font-size: 1.2em;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+p {
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

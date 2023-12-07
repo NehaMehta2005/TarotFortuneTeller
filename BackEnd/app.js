@@ -13,6 +13,9 @@ import Image from "./models/imageSchema.js";
 import fileUpload from "express-fileupload";
 import {Readable} from "stream";
 
+import BuyCardsRouter from "./routers/BuyCardsRoutes.js";
+
+
 // creating express server
 const app = express();
 
@@ -41,6 +44,7 @@ app.use("/users", usersRouter);
 
 app.use("/submitContactForm", contactUsRouter);
 app.use("/member", memberRouter);
+
 app.use("/yourfortuneteller", fortuneTellerRouter);
 
 //this code to upload images from cliet to server and storing it to database
@@ -75,6 +79,9 @@ app.get("/images/:filename",async (req,res)=>{
     
   }
 })
+
+app.use("/buyCards", BuyCardsRouter)
+
 
 // middleware to handle errors
 app.use((error, req, res, next) => {
