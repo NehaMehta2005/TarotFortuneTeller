@@ -72,7 +72,7 @@ import React, { useState } from 'react';
 
 
     return (
-      <div>
+      <div >
         <form onSubmit={handleBuyClick}>
           <div>
             <h2>Divine Celestial Tarot</h2>
