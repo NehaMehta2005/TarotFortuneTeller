@@ -1,13 +1,14 @@
-body {
-    line-height: 1.6;
+.ourTeam-background {
+    background-image: url("../../images/neptuneboy666_blue_marble_and_wood_magic_tarot_squares_planets__652fcaa9-9a94-4f57-85e5-da8a0665944c.png"); 
+    background-size: 50%;
     color: #030303;
-    background-image: url("C:\Users\aleja\websites\Terot\TerotFortuneTeller\frontend\src\images\neptuneboy666_blue_marble_and_wood_magic_tarot_squares_planets__652fcaa9-9a94-4f57-85e5-da8a0665944c.png"); 
-    margin: 0;
-    padding: 0;
-    font-size: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
 } 
 
-.about-background {
+.about-page {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
@@ -21,7 +22,7 @@ body {
 }
 
 h1,
-h3,
+ 
 h4 {
     color: rgba(215, 214, 214, 0.806);
 }
@@ -46,9 +47,13 @@ h4 {
 p {
     margin-bottom: 15px;
 }
+.memberList{
+    list-style-type: none;
+    font-weight: bold;
+}
 
 a {
-    color: #007bff;
+    color: black;
     text-decoration: none;
 }
 

@@ -38,7 +38,8 @@ export default function Register() {
     }
 
   return (
-    <div><h1>Register User Page</h1>
+    <div className="registerBackground">
+        <div className="contact-form">Register User Page 
     <Toaster position="top-center"/>
     <form onSubmit={registerUser}>
         <label htmlFor="firstname">First Name: </label>
@@ -55,7 +56,7 @@ export default function Register() {
 
         <button>register</button>
     </form>
-    
+    </div>
     </div>
   )
 }

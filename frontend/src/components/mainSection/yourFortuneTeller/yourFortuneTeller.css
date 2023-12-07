@@ -2,8 +2,8 @@
     height: 95vh;
     width: 100%;
     padding-top: 10rem;
-    background:rgba(162, 142, 162, 0.369);
-    /* put backgroundhere */
+    background: url("../../../images/marbleBlueBG.png");
+   
 }
 
  .fortuneTeller-title{
