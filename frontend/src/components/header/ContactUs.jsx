@@ -2,6 +2,7 @@
 import React, {useContext} from "react";
 import toast,{ Toaster } from 'react-hot-toast'
 import { MyContext } from "../../context/Context";
+import "./ContactUs.css"
 
 const FORM_ENDPOINT = "http://localhost:5500/submitContactForm/contactUs";
 
@@ -67,8 +68,14 @@ function ContactUs() {
   }
 
   return (
+ 
     <div >
-      <form  action={FORM_ENDPOINT} onSubmit={handleSubmit} method="POST">
+    
+ 
+    <div className="contactbackground">
+    <div className="contact-form">
+      <form action={FORM_ENDPOINT} onSubmit={handleSubmit} method="POST">
+ 
 
       <div>
           <input type="firstName" placeholder="name" name="firstName" />
@@ -85,6 +92,7 @@ function ContactUs() {
 
         <Toaster position="top-center"/>
       </form>
+    </div>
     </div>
   );
 }

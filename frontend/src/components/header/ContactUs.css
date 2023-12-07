@@ -1,0 +1,57 @@
+.contactbackground {
+    background-image: url("C:\Users\aleja\websites\Terot\TerotFortuneTeller\frontend\src\images\neptuneboy666_brocade_of_galaxy_blue_eyes_crytal_sigilism_close_ac109fec-3a04-482e-bad7-d207ca3df1c4.png");
+    /* background-position: center;
+    background-attachment: fixed; */
+    background-size: 50%;
+    color: #030303;
+    width: 100%;
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+
+.contact-form {
+    max-width: 800px;
+    /* margin: 18.1rem auto; */
+    padding: 40px;
+    background-color: rgba(54, 152, 201, 0.767);
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+
+    
+}
+
+input,
+textarea,
+button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: rgba(215, 214, 214, 0.806);
+    color: #030303;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #fff;
+    color: #030303;
+}
+
+.success-message {
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.success-message div {
+    margin-bottom: 10px;
+}

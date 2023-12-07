@@ -5,13 +5,12 @@ import Container from "./context/Container";
 import Routing from "./components/mainSection/Routing";
 import Footer from "./components/footer/Footer";
 
-
 function App() {
   return (
     <BrowserRouter>
       <Container>
         <Header />
-        <Routing/>
+        <Routing />
         <Footer />
       </Container>
     </BrowserRouter>
@@ -19,6 +18,3 @@ function App() {
 }
 
 export default App;
-
-
-

@@ -1,8 +1,10 @@
 import React from 'react'
+import "./AboutTarot.css"
 
 function AboutTarot() {
   return (
-    <div>
+    <div className="contactbackground2">
+    <div className='containerinfo'>
 
 <p>A beginner's guide to Tarot cards and how to use them</p>
 <h1>Tarot 101: The Basics</h1>
@@ -49,7 +51,7 @@ See, doesn't that make sense? Now you try. Begin by studying each card and the p
 <p>https://www.tarot.com/tarot/about-tarot</p>
 
 
-    </div>
+    </div></div>
   )
 }
 
