@@ -13,13 +13,13 @@ export const userRegisterValidation = [
     .trim()
     .normalizeEmail(),
  
-  body("password")
-    .exists()
-    .trim()
-    .isLength({min: 8, max: 16})
-    .withMessage(" password should between 8 and 16 characters")
-    .matches(/^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])[0-9a-zA-Z]{8,}$/, "i")
-    .withMessage(" password should include number and alpha characters"),
+  // body("password")
+  //   .exists()
+  //   .trim()
+  //   .isLength({min: 8, max: 16})
+  //   .withMessage(" password should between 8 and 16 characters")
+  //   .matches(/^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])[0-9a-zA-Z]{8,}$/, "i")
+  //   .withMessage(" password should include number and alpha characters"),
 
   body("firstName").exists().trim().escape().isAlpha(),
   body("lastName").exists().trim().isAlpha(),

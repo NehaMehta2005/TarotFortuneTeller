@@ -12,6 +12,8 @@ function Navbar() {
         <li><Link to="/buyCards">Buy the Tarot cards</Link></li>
         <li><Link to="/OurTeam">Our Team</Link></li>
         <li><Link to="/contactUs">Contact us</Link></li>
+        <li><Link to="/Login">Login</Link></li>
+        <li><Link to="/Register">Register</Link></li>
       </ul>
     </div>
   );

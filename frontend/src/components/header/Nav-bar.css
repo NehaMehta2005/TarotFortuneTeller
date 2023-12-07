@@ -4,6 +4,7 @@
     margin: 0;
     border: 0px rgba(0, 0, 0, 0);
     position: fixed;
+    top:0;
     width: 100%;
     text-align: center;
     list-style-type: none;

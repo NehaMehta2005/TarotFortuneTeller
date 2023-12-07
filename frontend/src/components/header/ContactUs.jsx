@@ -67,8 +67,8 @@ function ContactUs() {
   }
 
   return (
-    <div>
-      <form action={FORM_ENDPOINT} onSubmit={handleSubmit} method="POST">
+    <div >
+      <form  action={FORM_ENDPOINT} onSubmit={handleSubmit} method="POST">
 
       <div>
           <input type="firstName" placeholder="name" name="firstName" />
