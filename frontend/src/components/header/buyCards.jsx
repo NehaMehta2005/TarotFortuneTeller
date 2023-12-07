@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
   import toast,{ Toaster } from 'react-hot-toast'
-
+import "./buyCards.css"
   export default function BuyCards() {
     const [quantity, setQuantity] = useState(0);
     const [price] = useState(19.99);

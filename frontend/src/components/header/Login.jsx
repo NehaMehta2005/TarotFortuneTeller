@@ -1,6 +1,7 @@
 import React, { useContext } from 'react'
 import { MyContext } from '../../context/Context'
 import { useNavigate } from 'react-router-dom'
+import "./ContactUs.css"
 
 export default function Login() {
     const {setUser} =useContext(MyContext)
@@ -32,8 +33,8 @@ export default function Login() {
         .catch(err=>console.log(err))
     }
   return (
-    <div>
-        <h1>Login Page</h1>
+    <div className="loginBackground">
+        <div className="contact-form">Login Page
         <form onSubmit={loginUser}>
         <label htmlFor="email">Email :</label>
         <input type="email" id='email' name="email" /> <br />
@@ -43,6 +44,7 @@ export default function Login() {
 
         <button>Login</button>
     </form>
+    </div>
     </div>
   )
 }

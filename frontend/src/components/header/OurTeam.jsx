@@ -29,7 +29,7 @@ export default function OurTeams() {
   }, []);
 
   return (
-    <div className="about-background">
+    <div className="ourTeam-background">
       <div className="about-page">
         <div className="about-card">
           <h2 className="team-title">Who We Are</h2>
@@ -46,7 +46,7 @@ export default function OurTeams() {
           <ul className="team-list">
             {members.map((member, index) => {
               return (
-                <li key={index}>
+                <li className="memberList" key={index}>
                   <Link to={member.url} state={member}>
                     {/* <img className="profile-img" src={member.image} alt="" /> */}
                     <p>{member.name}</p>

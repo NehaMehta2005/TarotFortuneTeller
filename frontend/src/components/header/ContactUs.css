@@ -1,7 +1,5 @@
-.contactbackground {
-    background-image: url("C:\Users\aleja\websites\Terot\TerotFortuneTeller\frontend\src\images\neptuneboy666_brocade_of_galaxy_blue_eyes_crytal_sigilism_close_ac109fec-3a04-482e-bad7-d207ca3df1c4.png");
-    /* background-position: center;
-    background-attachment: fixed; */
+.contactbackground, .loginBackground, .registerBackground{
+    
     background-size: 50%;
     color: #030303;
     width: 100%;
@@ -10,18 +8,21 @@
     align-items: center;
     justify-content:center;
 }
+.contactbackground {
+    background-image: url("../../images/neptuneboy666_brocade_of_galaxy_blue_eyes_crytal_sigilism_close_ac109fec-3a04-482e-bad7-d207ca3df1c4.png");}
+.loginBackground{ background-image: url("../../images/neptuneboy666_blue_marble_and_wood_magic_tarot_speheres_purple__1ac54810-dab0-49d7-b70f-258a606795df.png");}
 
 
+.registerBackground{
+    background-image: url("../../images/purpleBG.png");
+}
 .contact-form {
     max-width: 800px;
-    /* margin: 18.1rem auto; */
     padding: 40px;
-    background-color: rgba(54, 152, 201, 0.767);
+    background-color: rgba(54, 81, 201, 0.767);
     border-radius: 4px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 30%;
-
-    
 }
 
 input,
