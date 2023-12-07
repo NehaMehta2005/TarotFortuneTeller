@@ -5,16 +5,12 @@
     background-size: cover;
     background-repeat: no-repeat;
     color: aliceblue;
-
-
-}
+    }
 
 .carousel {
     position: absolute;
     bottom: 8rem;
-    left:3rem;
-
-
+    left:3rem;    
 }
 
 .carousel-inner {
@@ -22,3 +18,8 @@
     
 
 }
+.tip-control, .tip-circle{
+    margin: 0.5rem;
+    font-size: 2rem;
+    font-weight: bold;
+   }

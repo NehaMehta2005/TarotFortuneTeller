@@ -68,9 +68,14 @@ function ContactUs() {
   }
 
   return (
+ 
+    <div >
+    
+ 
     <div className="contactbackground">
     <div className="contact-form">
       <form action={FORM_ENDPOINT} onSubmit={handleSubmit} method="POST">
+ 
 
       <div>
           <input type="firstName" placeholder="name" name="firstName" />
@@ -87,6 +92,7 @@ function ContactUs() {
 
         <Toaster position="top-center"/>
       </form>
+    </div>
     </div>
     </div>
   );

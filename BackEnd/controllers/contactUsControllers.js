@@ -3,7 +3,7 @@ import contactUsSchema from "../models/contactUsSchema.js";
 export const contactUs = async (req, res, next) => { 
     try {
 
-       const newContactdata=  req.body; 
+       const newContactdata=  await contactUsSchema.create(req.body); 
 
        console.log(newContactdata);
        
